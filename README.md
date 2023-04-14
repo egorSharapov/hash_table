@@ -66,11 +66,12 @@ Hash_t Const_hash (Ht_key_type key)
 Дисперсия: 1084285790
 
 <details>
-    <summary> График заселенности. </summary>
+<summary> График заселенности </summary>
 
-    ![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/const.png)
+![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/const.png?raw=true)
 
 </details>
+
 
 --------------------------------------------------------
 
@@ -87,9 +88,9 @@ Hash_t Len_hash (Ht_key_type key)
 
 Дисперсия: 71866906
 <details>
-    <summary> График заселенности. </summary>
+<summary> График заселенности. </summary>
 
-    ![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/strlen.png)
+![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/strlen.png)
 
 </details>
 
@@ -108,9 +109,9 @@ Hash_t Firstletter_hash (Ht_key_type key)
 Дисперсия: 55499156
 
 <details>
-    <summary> График заселенности. </summary>
+<summary> График заселенности. </summary>
 
-    ![alt text](plots/firstletter.png?raw=true)
+![alt text](plots/firstletter.png?raw=true)
 
 </details>
 
@@ -164,9 +165,9 @@ Hash_t Rol_hash (Ht_key_type key)
 Дисперсия: 649886
 
 <details>
-    <summary> График заселенности </summary>
+<summary> График заселенности </summary>
 
-    ![alt text](plots/rol.png?raw=true)
+![alt text](plots/rol.png?raw=true)
 
 </details>
 
@@ -191,9 +192,9 @@ Hash_t Ror_hash (Ht_key_type key)
 Дисперсия: 1485290
 
 <details>
-    <summary> График распределения </summary>
+<summary> График распределения </summary>
 
-    ![alt text](plots/ror.png?raw=true)
+![alt text](plots/ror.png?raw=true)
 
 </details>
 
@@ -221,9 +222,9 @@ Hash_t Gnu_hash (Ht_key_type key)
 Дисперсия: 545412
 
 <details>
-    <summary> График распределения </summary>
+<summary> График распределения </summary>
 
-    ![alt text](plots/gnu.png?raw=true)
+![alt text](plots/gnu.png?raw=true)
 
 </details>
 
@@ -258,9 +259,9 @@ Hash_t CRC32_hash (Ht_key_type key)
 Дисперсия: 543316
 
 <details>
-    <summary> График распределения </summary>
+<summary> График распределения </summary>
 
-    ![alt text](plots/crc32.png?raw=true)
+![alt text](plots/crc32.png?raw=true)
 
 </details>
 
@@ -285,9 +286,9 @@ Hash_t CRC32_hash (Ht_key_type key)
 | Base version |   38 458 739          |   1                  | 1                       |
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP0_graph.png?raw=true)
+![alt text](stat/dot/OP0_graph.png?raw=true)
 
 </details>
 
@@ -300,9 +301,9 @@ Hash_t CRC32_hash (Ht_key_type key)
 
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/O3_graph.png?raw=true)
+![alt text](stat/dot/O3_graph.png?raw=true)
 
 </details>
 
@@ -342,9 +343,9 @@ Gnu_hash_asm:
 | Optimization 1 |   30 559 932          |   1,26               | 1,26                    |
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP1_graph.png?raw=true)
+![alt text](stat/dot/OP1_graph.png?raw=true)
 
 </details>
 
@@ -389,9 +390,9 @@ int _strcmp (char *string1, char *string2)
 | Optimization 2 |   38 098 116          |   1,01               | 0,80                    |
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP2_no_graph.png?raw=true)
+![alt text](stat/dot/OP2_no_graph.png?raw=true)
 
 </details>
 
@@ -409,9 +410,9 @@ int _strcmp (char *string1, char *string2)
 | Opt 2 (inline) |   19 233 482          |   1,59               | 1,56                    |
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP2_graph.png?raw=true)
+![alt text](stat/dot/OP2_graph.png?raw=true)
 
 </details>
 
@@ -463,9 +464,9 @@ Gnu_hash_asm:
 
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP3_graph.png?raw=true)
+![alt text](stat/dot/OP3_graph.png?raw=true)
 
 </details>
 
@@ -501,9 +502,9 @@ Gnu_hash_asm:
 | Optimization 4 |   15 593 638          |   2,47               | 1,19                    |
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP4_graph.png?raw=true)
+![alt text](stat/dot/OP4_graph.png?raw=true)
 
 </details>
 
@@ -525,9 +526,9 @@ Gnu_hash_asm:
 
 
 <details> 
-    <summary> Спойлер (граф вызовов) </summary>
+<summary> Спойлер (граф вызовов) </summary>
 
-    ![alt text](stat/dot/OP5_graph.png?raw=true)
+![alt text](stat/dot/OP5_graph.png?raw=true)
 
 </details>
 
