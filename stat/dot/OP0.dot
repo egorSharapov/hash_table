@@ -1,0 +1,11 @@
+digraph "callgraph" {
+  node [colorscheme=oranges5]
+  F55e06a786920 [label="strcmp_avx2\n12 763 337", shape=Mrecord, style=filled, color=5, fillcolor=1];
+  F55e06a8f0580 [label="main\n38 458 739", shape=Mrecord, style=filled, color=5, fillcolor=4];
+  F55e06a955240 [label="Gnu_hash\n14 636 502", shape=Mrecord, style=filled, color=5, fillcolor=2];
+  F55e06a9726f0 [label="Search\n38 458 739", shape=Mrecord, style=filled, color=5, fillcolor=3];
+  F55e06a8f0580 -> F55e06a9726f0 [weight=2,label="38M (66K calls)"];
+  F55e06a9726f0 -> F55e06a786920 [weight=2,label="12M (504K calls)"];
+  F55e06a9726f0 -> F55e06a955240 [weight=2,label="14M (66K calls)"];
+}
+
