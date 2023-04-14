@@ -137,9 +137,9 @@ Hash_t Sum_hash (Ht_key_type key)
 Дисперсия: 978856
 
 <details>
-    <summary> График заселенности. </summary>
+<summary> График заселенности. </summary>
 
-    ![alt text](plots/sum.png?raw=true)
+![alt text](plots/sum.png?raw=true)
 
 </details>
 
