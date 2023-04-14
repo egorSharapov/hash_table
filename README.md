@@ -68,7 +68,7 @@ Hash_t Const_hash (Ht_key_type key)
 <details>
     <summary> График заселенности. </summary>
 
-    ![alt text](plots/const.png?raw=true)
+    ![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/const.png)
 
 </details>
 
@@ -89,7 +89,7 @@ Hash_t Len_hash (Ht_key_type key)
 <details>
     <summary> График заселенности. </summary>
 
-    ![alt text](plots/strlen.png?raw=true)
+    ![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/strlen.png)
 
 </details>
 
