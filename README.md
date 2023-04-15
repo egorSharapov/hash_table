@@ -31,7 +31,7 @@
 
 В данной работе будет использоваться реализация второго варианта хеш-таблиц.
 
-![alt text](plots/pretty_hash_table?raw=true)
+![alt text](https://github.com/egorSharapov/hash_table/blob/main/plots/pretty_hash_table.png?raw=true)
 
 **Заселенность** — одна из метрик цепочечных хеш-таблиц, средняя длина цепочки элементов.
 
